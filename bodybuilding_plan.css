@@ -1,0 +1,79 @@
+body{
+	width:1020px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#muscle_map {
+	display: inline-block;
+	width: 425px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#list_of_part{
+	display: inline-block;
+	float: left;
+	/*margin-left: 300px;*/
+	/*margin-left: 800px;*/
+}
+
+#list_of_part ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+#list_of_part ul li{
+	position: relative;
+	width: 200px;
+	margin:0px;
+}
+
+#list_of_part ul span{
+	width: 200px;
+	margin-bottom: 15px;
+}
+
+#list_of_part ul li ul{
+	display: none;
+}
+
+#list_of_part ul li ul li{
+	margin-bottom:5px;
+	margin-right: 5px;
+}
+
+#list_of_part ul li:hover ul{
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	top: -20px;
+}
+
+#history{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	float: right;
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	top: 20px;
+	right: 15px;
+	padding-left:20px;
+}
+
+#today_workout{
+	margin-top: 20px;
+	padding-left:20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 645px;
+	height: 200px;
+	margin-left: 40px;
+}
+
+.add {
+	width: 150px;
+	list-style-type: none;
+	margin-left: 20px;
+}
