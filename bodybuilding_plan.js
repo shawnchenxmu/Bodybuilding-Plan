@@ -30,200 +30,175 @@ for (var i = 0; i < allNode.length; i++) {
 
 var Abdominals = $("#Abdominals");
 Abdominals.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Abdominals.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -496 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Obliques = $("#Obliques");
 Obliques.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Obliques.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -992 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Serratus = $('#Serratus\\ anterior');
 Serratus.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Serratus anterior.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -1488 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Biceps=$("#Biceps");
 Biceps.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Biceps.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -1984 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Forearms=$("#Forearms");
 Forearms.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Forearms.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -2480 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Triceps = $("#Triceps");
 Triceps.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Triceps.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -2976 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Anterior = $('#Anterior\\ delts');
 Anterior.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Anterior delts.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -3472 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Lateral = $("#Lateral\\ delts");
 Lateral.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Lateral delts.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -3968 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Posterior = $("#Posterior\\ delts");
 Posterior.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Posterior delts.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -4464 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Erector = $("#Erector\\ spinae");
 Erector.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Erector spinae.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -4960 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Infraspinatus = $("#Infraspinatus");
 Infraspinatus.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Infraspinatus.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -5456 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Latissimus = $("#Latissimus\\ dorsi");
 Latissimus.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Lats.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -5952 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Teres  = $("#Teres");
 Teres.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Teres.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -6448 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Trapezius = $("#Trapezius");
 Trapezius.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Trapezius.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -6944 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Pectoralis = $("#Pectoralis");
 Pectoralis.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_Pectoralis.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -7440 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Calves = $("#Calves");
 Calves.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Calves.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -7936 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Hamstrings = $("#Hamstrings");
 Hamstrings.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Hamstrings.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -8432 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Quads = $("#Quads");
 Quads.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Quads.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -8928 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Sartorius = $("#Sartorius");
 Sartorius.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_Sartorius.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -9424 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Tibialis = $("#Tibialis_anterior");
 Tibialis.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Tibialis_anterior.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -9920 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var adductors = $("#Hip\\ adductors");
 adductors.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Hip adductors.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -10416 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Flexors = $("#Hip\\ Flexors");
 Flexors.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Hip Flexors.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -10912 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var Tensor=$("#Tensor\\ fasciae\\ latae");
 Tensor.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Tensor fasciae latae.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -11408 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var medius = $("#Gluteus\\ medius");
 medius.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Gluteus medius.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -11904 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });
 
 var maximus = $("#Gluteus\\ maximus");
 maximus.hover(function(){
-	$("#muscle_map img").remove();
-	$("#muscle_map").append('<img src="img/body_muscle_ Gluteus maximus.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + -12400 + "px";
 },function(){
-	$("#muscle_map img").replaceWith('<img src="img/body_muscle.png">');
+	document.getElementById("muscle_map").style.backgroundPosition = 0 + "px " + 0 + "px";
 });

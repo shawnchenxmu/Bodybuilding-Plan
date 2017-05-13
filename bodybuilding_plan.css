@@ -1,26 +1,32 @@
 body{
-	width:1020px;
+	width:1150px;
 	margin: 0 auto;
 	position: relative;
 }
 
 #muscle_map {
-	/*background-image: url(img/body_muscle.png);*/
-	background-size: 425px;
+	background-image: url(img/all-muscle.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: 560px;
 	display: inline-block;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-	width: 425px;
-	height: 375px;
+	width: 560px;
+	height: 496px;
 	margin-top: 20px;
 	margin-left: 20px;
+	overflow: hidden;
+	position: relative;
 }
 
-#muscle_map img{
+/*#muscle_map img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	padding-left: 0px;
 	width: 425px;
-	height: 375px;
-}
+}*/
 
 #list_of_part{
 	display: inline-block;
@@ -41,8 +47,8 @@ body{
 }
 
 #list_of_part ul span{
-	width: 200px;
-	margin-bottom: 15px;
+	width: 180px;
+	margin-bottom: 30px;
 }
 
 #list_of_part ul li ul{
@@ -52,6 +58,7 @@ body{
 #list_of_part ul li ul li{
 	margin-bottom:5px;
 	margin-right: 5px;
+	width: 160px;
 }
 
 #list_of_part ul li:hover ul{
@@ -67,7 +74,7 @@ body{
 	float: right;
 	position: absolute;
 	width: 300px;
-	height: 600px;
+	height: 720px;
 	top: 20px;
 	right: 15px;
 	padding-left:20px;
@@ -78,7 +85,7 @@ body{
 	padding-left:20px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-	width: 645px;
+	width: 777px;
 	height: 200px;
 	margin-left: 40px;
 }
