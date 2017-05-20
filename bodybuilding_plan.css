@@ -1,11 +1,25 @@
 body{
+	background-image: url(img/1.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
 	width:1150px;
 	margin: 0 auto;
 	position: relative;
+	color: white;
+}
+
+.btn{
+	color: white;
+	font-weight: bold;
+}
+
+.btn:hover{
+	color: #eee;
 }
 
 #muscle_map {
-	background-image: url(img/all-muscle.png);
+	background-image: url(img/all-muscle2.png);
+	background-color: rgba(256,256,256, 0.4);
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
 	background-size: 560px;
@@ -20,19 +34,10 @@ body{
 	position: relative;
 }
 
-/*#muscle_map img{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	padding-left: 0px;
-	width: 425px;
-}*/
 
 #list_of_part{
 	display: inline-block;
 	float: left;
-	/*margin-left: 300px;*/
-	/*margin-left: 800px;*/
 }
 
 #list_of_part ul{
@@ -49,6 +54,7 @@ body{
 #list_of_part ul span{
 	width: 180px;
 	margin-bottom: 30px;
+	background-color: rgba(256,256,256, 0.5);
 }
 
 #list_of_part ul li ul{
@@ -59,6 +65,7 @@ body{
 	margin-bottom:5px;
 	margin-right: 5px;
 	width: 160px;
+	background-color: rgba(256,256,256, 0.5);
 }
 
 #list_of_part ul li:hover ul{
@@ -70,6 +77,7 @@ body{
 
 #history{
 	border: 1px solid #ccc;
+	overflow: auto;
 	border-radius: 4px;
 	float: right;
 	position: absolute;
@@ -78,20 +86,63 @@ body{
 	top: 20px;
 	right: 15px;
 	padding-left:20px;
+	background-color: rgba(256,256,256, 0.5);
+}
+
+#history h4{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px dotted #ddd;
 }
 
 #today_workout{
 	margin-top: 20px;
 	padding-left:20px;
 	border: 1px solid #ccc;
+	position: relative;
 	border-radius: 4px;
 	width: 777px;
 	height: 200px;
 	margin-left: 40px;
+	background-color: rgba(256,256,256, 0.5);
+}
+
+#today_workout li{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#today_workout .content{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding-top: 5px;
+	overflow: scroll;
+	height: 145px;
+	width: 730px;
 }
 
 .add {
 	width: 150px;
+	text-align: center;
 	list-style-type: none;
 	margin-left: 20px;
+	border: 1px solid #eee;
+	padding: 5px;
+}
+
+#addTo {
+	display: inline-block;
+	float: right;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+}
+
+#quote {
+	width: 1100px;
+	height: 150px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-left: 40px;
+	margin-top: 20px;
 }
