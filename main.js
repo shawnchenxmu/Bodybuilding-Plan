@@ -1,3 +1,17 @@
+function initHistory () {
+	var history = $("#history .content");
+	for (var i = 1; i < localStorage.length; i++) {
+		var list = localStorage[i].split(",")
+		history.append("<h4>DAY " + i + " : "+ list[0] +"</h4>");
+		for (var j = 1; j < list.length; j++) {
+			history.append("<p>"+list[j]+"<p>");
+		};
+
+	};
+}
+
+initHistory();
+
 function initBackground () {
 	var n = parseInt(Math.random() * 10 + 1)
 	document.body.style.backgroundImage = "url(img/" + n + ".jpg";
@@ -39,25 +53,36 @@ for (var i = 0; i < parts.length; i++){
 
 
 // add to history
-var day = 1;
+
+function getDay () {
+	if (localStorage["day"]) {
+		return localStorage["day"];
+	}else{
+		return 1;
+	}
+}
 function addTo() {
+	var day = parseInt(getDay ());
 	var adds = $(".add");
 	if (adds.length === 0) {
 		return false;
 	};
-	var history = $("#history");
-	history.append("<h4>DAY " + day + ": "+getToday()+"</h4>");
-	day++;
+	var history = $("#history .content");
+	history.append("<h4>DAY " + day + " : "+getToday()+"</h4>");
+	var text = [];
 	for (var i = 0; i < adds.length; i++) {
-		var text = adds[i].childNodes[0].nodeValue;
+		text.push(adds[i].childNodes[0].nodeValue);
 		var name = adds[i].childNodes[1].name;
-		history.append("<p class='"+name+"'>"+text+"<p>");
+		history.append("<p class='"+name+"'>"+text[i]+"<p>");
 		var part = document.getElementById(name);
 		part.setAttribute("disable", "false");
 		adds[i].remove();
 	};
-
-}
+	text.unshift(getToday());
+	window.localStorage.setItem(day, text);
+	day++;
+	window.localStorage.setItem("day", day);
+};
 
 $("#addTo").click(function () {
 	addTo();
@@ -140,6 +165,16 @@ randomQuote();
 
 $("#next").click(function () {
 	randomQuote();
+});
+
+
+
+// add clean history
+function cleanHistory () {
+	localStorage.clear();
+	$("#history .content p,h4").remove();
+}
+
+$("#clean").click(function () {
+	cleanHistory();
 })
-
-

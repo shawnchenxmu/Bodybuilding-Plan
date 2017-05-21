@@ -8,15 +8,6 @@ body{
 	color: white;
 }
 
-.btn{
-	color: white;
-	font-weight: bold;
-}
-
-.btn:hover{
-	color: #eee;
-}
-
 #muscle_map {
 	background-image: url(img/all-muscle2.png);
 	background-color: rgba(256,256,256, 0.4);
@@ -76,8 +67,8 @@ body{
 }
 
 #history{
+	font-family: Times;
 	border: 1px solid #ccc;
-	overflow: auto;
 	border-radius: 4px;
 	float: right;
 	position: absolute;
@@ -89,10 +80,37 @@ body{
 	background-color: rgba(256,256,256, 0.5);
 }
 
-#history h4{
-	margin-top: 10px;
+#history h3{
+	color: white;
+}
+
+#history .content{
+	padding-left:20px;
+	width: 300px;
+	height: 445px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	overflow: auto;
+	padding-top: 0px;
+
+}
+
+#history .content h4{
+	/*margin-top: 10px;*/
 	padding-top: 10px;
 	border-top: 1px dotted #ddd;
+	width: 250px;
+}
+
+#history .content p{
+	font-size: 16px;
+}
+
+#history button{
+	position: absolute;
+	top: 20px;
+	right: 30px;
 }
 
 #today_workout{
@@ -175,4 +193,23 @@ body{
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
+}
+
+.btn {
+	color: white;
+}
+
+.btn:hover {
+	color: #ccc;
+}
+
+#today_workout .btn, #history .btn, #quotes .btn{
+	color: white;
+	background-color: #4682B4;
+	font-weight: bold;
+}
+
+#today_workout .btn:hover, #history .btn:hover, #quote .btn:hover{
+	color: #4682B4;
+	background-color: white;
 }
