@@ -1,7 +1,7 @@
 function initHistory () {
 	var history = $("#history .content");
 	for (var i = 1; i < localStorage.length; i++) {
-		var list = localStorage[i].split(",")
+		var list = localStorage[i].split(",");
 		history.append("<h4>DAY " + i + " : "+ list[0] +"</h4>");
 		for (var j = 1; j < list.length; j++) {
 			history.append("<p>"+list[j]+"<p>");
@@ -158,7 +158,8 @@ function randomQuote() {
 		$("#quote p").remove();
 	};
 	var n = parseInt(Math.random() * 50) + 1;
-	$("#quote").append("<p class='quote'>" + quotes[n] + "</p>");
+	$("#quote").append("<p class='quote' style='display:none'>" + quotes[n] + "</p>");
+	$("#quote p").fadeIn();
 }
 
 randomQuote();
